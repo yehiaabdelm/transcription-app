@@ -1,0 +1,20 @@
+* {
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+:root{ 
+    --font-fam: 'UntitledSans-Regular', monospace;
+}
+
+body{
+    font-family: var(--font-fam);
+}
+
+
+
+@font-face {
+    font-family: 'UntitledSans-Regular';
+    src: url('/UntitledSans-Regular.otf') format('truetype');
+}
